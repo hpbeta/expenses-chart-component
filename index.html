@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="cabecalho">
+        <div class="info-balance">
+          <span class="balance">My balance</span>
+          <p class="price">$921.48</p>
+        </div>
+        <img class="logo" src="./src/images/logo.svg" alt="logo" />
+      </header>
+      <div class="info">
+        <h3 class="spending">Spending - Last 7 days</h3>
+
+        <ul class="list">
+          <li>
+            <span class="numbers-bar ">$17.45</span>
+            <div class="day mon"></div>
+            <span class="list-days">mon</span>
+          </li>
+
+          <li>
+            <span class="numbers-bar">$34.91</span>
+            <div class=" day tue"></div>
+            <span class="list-days">tue</span>
+          </li>
+
+          <li>
+            <span class="numbers-bar">$52.36</span>
+            <div class="day wed"></div>
+            <span class="list-days">wed</span>
+          </li>
+
+          <li>
+            <span class="numbers-bar">$31.07</span>
+            <div class="day thu"></div>
+            <span class="list-days">thu</span>
+          </li>
+
+          <li>
+            <span class="numbers-bar">$23.39</span>
+            <div class="day fri"></div>
+            <span class="list-days">fri</span>
+          </li>
+
+          <li>
+            <span class="numbers-bar">$43.28</span>
+            <div class="day sat"></div>
+            <span class="list-days">sat</span>
+          </li>
+
+          <li>
+            <span class="numbers-bar">$25.48</span>
+            <div class="day sun"></div>
+            <span class="list-days">sun</span>
+          </li>
+        </ul>
+        
+        <hr />
+
+        <div class="month">
+          <div class="info-numbers">
+            <span class="total">Total this month</span>
+            <p class="total-price">$478.33</p>
+          </div>
+          <div class="total-percent">
+            <p class="info-percent">+2.4%</p>
+            <p class="last-month">from last month</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
